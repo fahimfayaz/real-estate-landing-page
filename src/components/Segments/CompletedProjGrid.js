@@ -155,7 +155,7 @@ class OngoingProjGrid extends React.Component {
                                                 <img src={item.image.default} alt="" style={{height:'650px'}} />
                                                 <div className="overlay-bx-2 m-b80" style={{backgroundColor:'white', height:'80px'}}>
                                                     <div className="text-black font-weight-600 p-a20">
-                                                        <span><NavLink to={"/project-detail"} className="text-black font-20 letter-spacing-1 text-uppercase">{item.title}</NavLink></span>
+                                                        <span><NavLink to={"/project_detail"} className="text-black font-20 letter-spacing-1 text-uppercase">{item.title}</NavLink></span>
                                                         <br/><span>{item.location}</span>
                                                         {/* <NavLink to={"/project-detail"} className="v-button letter-spacing-4 font-12 text-uppercase p-lr20 text-white" style={{backgroundColor:'cadetblue'}}>Read More</NavLink> */}
                                                     </div>

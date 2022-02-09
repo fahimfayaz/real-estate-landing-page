@@ -32,6 +32,7 @@ import WorkGrid from './Pages/WorkGrid';
 import WorkMasonary from './Pages/WorkMasonary';
 import WorkCarousel from './Pages/WorkCarousel';
 import ProjectDetail from './Pages/ProjectDetail';
+import ProjectDetail6 from './Pages/ProjectDetail6';
 
 import PostImage from './Pages/PostImage';
 import PostGallery from './Pages/PostGallery';
@@ -92,6 +93,7 @@ class Components extends React.Component {
                             <Route path='/work-masonary' exact component={WorkMasonary} />
                             <Route path='/work-carousel' exact component={WorkCarousel} />
                             <Route path='/project-detail' exact component={ProjectDetail} />
+                            <Route path='/project_detail' exact component={ProjectDetail6} />
 
                             <Route path='/post-image' exact component={PostImage} />
                             <Route path='/post-gallery' exact component={PostGallery} />

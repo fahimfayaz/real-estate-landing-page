@@ -161,10 +161,6 @@ class LatestProjects extends React.Component {
                                         ))}
                                     </OwlCarousel>
                         </div>
-                        <div className="hilite-title p-lr20 m-tb20 text-right text-uppercase bdr-gray bdr-right">
-                            <strong>Awesome</strong>
-                            <span className="text-black">Designs</span>
-                        </div>
                     </div>
             </>
         );
